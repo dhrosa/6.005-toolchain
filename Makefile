@@ -2,7 +2,7 @@
 CLASSPATH=/usr/share/java/junit4.jar:src:bin
 
 # javac flags
-JC_FLAGS= -g -cp $(CLASSPATH) -d bin
+JC_FLAGS= -g -cp $(CLASSPATH) -d bin -Xlint:unchecked
 
 # javadoc flags
 JD_FLAGS= -d doc
